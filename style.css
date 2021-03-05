@@ -1,0 +1,71 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, blue, rgba(113, 255, 255, 1));
+    background-size: cover;
+}
+
+.box {
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: "Georgia", sans-serif;
+}
+
+.box-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: all ease-in-out 1000ms;
+    transform-style: preserve-3d;
+}
+
+.box h1 {
+    font-size: 45px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box h4 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.box li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.box li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all ease-in-out 300ms;
+    padding-right: 16px;
+}
+
+.box li a:hover {
+    color: #010600;
+}
+
+.box-img:hover {
+    transform: rotateY(180deg);
+}
